@@ -4,9 +4,7 @@ def factorial():
     if number >= 1:
         for i in range(1, number + 1):
             num = num * i
-        print(num)
-    else:
-        print("0")
+    print(num)
 
 
 factorial()
